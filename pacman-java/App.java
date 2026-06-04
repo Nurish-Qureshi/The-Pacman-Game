@@ -24,6 +24,8 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         PacMan pacmanGame = new PacMan();
+JOptionPane.showMessageDialog(null, "Keyboard Instructions:\n\nW: Move Up\nS: Move Down\nA: Move Left\nD: Move Right", "Game Instructions", JOptionPane.INFORMATION_MESSAGE);
+
         frame.add(pacmanGame);
         frame.pack();
         pacmanGame.requestFocus();
